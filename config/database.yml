@@ -1,0 +1,29 @@
+gem 'pg'
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: bodydash_development
+  pool: 5
+  username:
+  password: 
+  host: localhost
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: bodydash_test
+  pool: 5
+  username:
+  password:
+  host: localhost
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: bodydash_production
+  pool: 5
+  username:
+  password:

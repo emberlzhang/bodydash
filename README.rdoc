@@ -1,0 +1,24 @@
+BODYDASH is an online dashboard for tracking patient health data. The following is a log of my customer-focused development process, which is inspired by the Thoughtbot Playbook, and the Ruby on Rails philosophy “convention over configuration”.
+
+About the creator: I am a full-stack Ruby on Rails developer of the belief that users matter more than obscure technical hacks. Technology is the means, not the end.
+
+Enjoy!
+#Janet Chang#
+
+=========
+Customer Discovery:
+The recommendation by proponents of the Lean Startup and customer development philosophy is “talk to customers to figure out their problems”. Fortunately, I am one of the core “customers”. Even so, I have done due diligence by informally polling other friends and acquaintances who are patients, and they wholeheartedly verified that they face the same problem. If memory serves, I have thus far spoken about this problem with EG, AC, and the woman from the QS conference. If we need more validation, we could ask SA and the QS woman for referrals to people they know.
+-----
+Problems:
+Chronic illness patients see many medical professionals in attempt to diagnose (and treat, and monitor) their condition, but their lab test data is scattered in different EHR’s at different locations. The patient owns hard copies of this data, but it is hard to 1) keep track of all of it and 2) present to the doctor in a cohesive manner. If the doctor is in doubt of comprehensive testing, 3) s/he will order a panel of tests that the patient may have had done before, leading to duplication of expenses and time. The patient can’t remember which tests have been ordered because lab test jargon is confusing (eg. “free testosterone” or “total testosterone”?) and there are an overwhelming number of tests. It is also hard for the doctor to 4) see what lab values increased, decreased, and the relationship between lab values and treatments.
+-----
+Solution:
+Patients upload their old lab tests to a (private) online account, and view all their lab test results in a comprehensive dashboard.
+-----
+User Stories:
+As a patient, I want to see all my lab test data in one place/dashboard.
+As a patient, I want to upload my old lab tests and store the data for me and my doctor to view later.
+As a patient, I want either my doctor or myself to be able to add treatments.
+=========
+
+Stay tuned...
